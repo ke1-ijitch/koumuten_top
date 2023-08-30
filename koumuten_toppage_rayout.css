@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+/*↓ ---------------------sp---------------------- ↓*/
+
+html{
+    font-family: 'Shippori Mincho', serif;
+}
+
+html ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.contents-container{
+    width: 375px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+summary {
+    display: block;
+    list-style: none;
+  }
+  
+  /* 一部ブラウザで消えなかった場合は以下も追記 */
+  summary::-webkit-details-marker {
+    display:none;
+  }
+
+/*-----↓ top ↓-----*/
+.top-block{
+    text-align: center;
+
+}
+
+.top-img{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.brandimage-copy01{
+    position: relative;
+    bottom: 210px;
+    right: 105px;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: -100px;
+}
+
+.setuzoku{
+    font-size: 16px;
+}
+
+.brandimage-copy02{
+    position: relative;
+    bottom: 125px;
+    right: 80px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.corp-logo{
+    position: relative;
+    bottom: 40px;
+    left: 260px;
+    color: #ffffff;
+    font-weight: bold;
+    border: #ffffff solid 2px;
+    width: 100px;
+    margin-bottom: -30px;
+}
+/*-----↑ top ↑-----*/
+
+/*-----↓ contents01 ↓-----*/
+.contents01-head ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.brand-logo{
+    font-size: 10px;
+}
+
+.corp-info{
+    text-align: center;
+    font-size: 12px;
+}
+
+.corp-info li{
+    padding-right: 5px;
+}
+
+.ui-slitt{
+    font-size: 10px;
+    color: #c4c4c4;
+    padding-left:5px;
+}
+
+.ui-logo{
+    display: inline-block;
+    transform: rotate(90deg);
+    color: #a8a8a8;
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    right: 4px;
+}
+
+.ui-logo01{
+    display: inline-block;
+    transform: rotate(90deg);
+    color: #a8a8a8;
+    position: relative;
+    bottom: 3px;
+    font-size: 12px;
+    left: 3px;
+}
+
+.contents01-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pre-img{
+    width: 120px;
+}
+
+.greeting{
+    width: 170px;
+    text-align: center;
+}
+
+.greeting-title{
+    border-bottom:solid 1px #a8a8a8;
+    display: inline-block;
+    font-size: 17px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.greeting-details{
+    font-size: 12px;
+    text-align: left;
+}
+
+.background-01{
+    background: #F0FFF2;
+    width: 375px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+/*-----↑ contents01 ↑-----*/
+
+
+/*-----↓ contents02 ↓-----*/
+.background-02{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.contents02-left{
+    text-align: center;
+    width: 190px;
+    background-color: #3DCC5D;
+}
+
+.contents02-title{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.contents02-details{
+    display: inline-block;
+    font-size: 10px;
+    text-align: left;
+    width: 160px;
+    color: #ffffff;
+}
+
+.induction-bt{
+    background: #ffffff;
+    font-size: 8px;
+    width: 100px;
+    display: inline-block;
+    padding: 3px 10px 4px;
+    font-weight: bold;
+}
+
+.ui-logo02{
+    position: relative;
+    left: 15px;
+    bottom: 2px;
+}
+
+/*-----↑ contents02 ↑-----*/
+
+
+/*-----↓ contents03 ↓-----*/
+.background-03{
+    display: flex;
+    background: #F0FFF2;
+    justify-content: center;
+    background-image: linear-gradient(0deg, transparent calc(100% - 1px), #e7e7e7 calc(100% - 1px)),
+    linear-gradient(90deg, transparent calc(100% - 1px), #e7e7e7 calc(100% - 1px));
+    background-size: 17px 17px;
+    background-repeat: repeat;
+    background-position: center center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.induction-summary{
+    text-align: center;
+    background: #3DCC5D;
+    width: 160px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.i-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.i-details{
+    font-size: 10px;
+    color: #ffffff;
+}
+
+.ui-icon-d1{
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    left: 13px;
+    top: 32px;
+    margin-left: -26px;
+}
+
+.ui-icon-d2{
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    left: 20px;
+    top: 32px;
+    margin-left: -32px;
+}
+
+.ui-icon-d3{
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    left: 16px;
+    top: 32px;
+    margin-left: -27px;
+}
+
+.ui-icon-d4{
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    left: 13.5px;
+    top: 32px;
+    margin-left: -27px;
+}
+/*-----↑ contents03 ↑-----*/
+
+
+.background-04{
+    background: #F0FFF2;
+    padding-top: 10px;
+}
+
+.exm-title{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.exm{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.exm-img-l{
+    width: 160px;
+    height: 160px;
+}
+
+.exm-img-r{
+    width: 160px;
+    height: 160px;
+}
+
+.exm-summary{
+    text-align: center;
+}
+
+.exm-type{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.exm-details{
+    text-align: left;
+    width: 140px;
+    font-size: 14px;
+}
+
+.background-05{
+    text-align: center;
+    background: #F0FFF2;
+    padding-bottom: 40px;
+}
+
+.corp-about ul{
+    padding-left: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.corp-about li{
+    padding-bottom: 5px;
+}
+
+.corp-name{
+    padding-top: 20px;
+    display: inline-block;
+    border-top: #dadada solid 1px;
+    width: 280px;
+}
+
+.kako{
+    font-size: 12px;
+}
+
+.aka{
+    font-size: 12px;
+}
+
+.address{
+    padding-top: 5px;
+}
+
+.studio-name{
+    padding: 20px 0 10px;
+}
+
+.background-06{
+    display: flex;
+    justify-content:space-evenly;
+    background: #3DCC5D;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-summary{
+    color: #ffffff;
+    font-size: 12px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.information{
+    color: #ffffff;
+    font-size: 10px;
+    padding-bottom: 8px;
+}
+
+.footer-icon{
+    display: inline-block;
+    font-size: 10px;
+    transform: rotate(45deg) scale(0.5);
+    position: relative;
+    bottom: 3px;
+    left: 6px;
+}
+
+.citemap{
+    background: #0EBF35;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 2px 0 2px 10px;
+}
